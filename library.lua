@@ -3843,12 +3843,12 @@ end
 
 ac=af
 ad.Folder=ac.Folder
-ad.Path="WindUI/"..tostring(ad.Folder).."/config/"
+ad.Path="z888/"..tostring(ad.Folder).."/config/"
 
-if not isfolder("WindUI/"..ad.Folder)then
-makefolder("WindUI/"..ad.Folder)
-if not isfolder("WindUI/"..ad.Folder.."/config/")then
-makefolder("WindUI/"..ad.Folder.."/config/")
+if not isfolder("z888/"..ad.Folder)then
+makefolder("z888/"..ad.Folder)
+if not isfolder("z888/"..ad.Folder.."/config/")then
+makefolder("z888/"..ad.Folder.."/config/")
 end
 end
 
