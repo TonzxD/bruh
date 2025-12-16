@@ -6222,7 +6222,6 @@ if aj.Window.NewElements then
 af(ak.UIElements.SliderIcon.Frame.Thumb,.24,{ImageTransparency=.85,Size=UDim2.new(0,(aj.Window.NewElements and(ak.ThumbSize*2)or(ak.ThumbSize))+8,0,ak.ThumbSize+8)},Enum.EasingStyle.Quint,Enum.EasingDirection.Out):Play()
 end
 if aw then aw:Open()end
-print"piskaa"
 end
 end)
 
