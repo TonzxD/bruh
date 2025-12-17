@@ -1745,7 +1745,7 @@ HorizontalAlignment="Center",
 an,
 ac("TextLabel",{
 BackgroundTransparency=1,
-FontFace=Font.new(ab.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(ab.Font,Enum.FontWeight.Regular),
 Text=ae or"Button",
 ThemeTag={
 TextColor3=(ah~="Primary"and ah~="White")and"Text",
@@ -2117,7 +2117,7 @@ local ar=ac("TextLabel",{
 AutomaticSize="XY",
 BackgroundTransparency=1,
 Text=ag.KeySystem.Title or ag.Title,
-FontFace=Font.new(ab.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(ab.Font,Enum.FontWeight.Regular),
 ThemeTag={
 TextColor3="Text",
 },
@@ -2988,7 +2988,7 @@ AutomaticSize="Y",
 BackgroundTransparency=1,
 Text=af.Title,
 TextXAlignment="Left",
-FontFace=Font.new(ab.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(ab.Font,Enum.FontWeight.Regular),
 ThemeTag={
 TextColor3="PopupTitle",
 },
@@ -3666,7 +3666,7 @@ local aj=ac("TextLabel",{
 BackgroundTransparency=1,
 AutomaticSize="XY",
 TextSize=ah.TextSize,
-FontFace=Font.new(ab.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(ab.Font,Enum.FontWeight.Regular),
 Text=ah.Title,
 TextColor3=typeof(ah.Color)=="Color3"and ab.GetTextColorForHSB(ah.Color)or nil,
 })
@@ -4739,7 +4739,7 @@ TextTransparency=ao=="Desc"and.3 or 0,
 TextWrapped=true,
 Size=UDim2.new(ag.Justify=="Between"and 1 or 0,0,0,0),
 AutomaticSize=ag.Justify=="Between"and"Y"or"XY",
-FontFace=Font.new(aa.Font,ao=="Desc"and Enum.FontWeight.Regular or Enum.FontWeight.SemiBold)
+FontFace=Font.new(aa.Font,ao=="Desc"and Enum.FontWeight.Regular or Enum.FontWeight.Regular)
 })
 end
 
@@ -7777,7 +7777,7 @@ local az,aA,aB=aw.Hue,aw.Sat,aw.Vib
 aw.UIElements.Title=ae("TextLabel",{
 Text=aw.Title,
 TextSize=20,
-FontFace=Font.new(aa.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(aa.Font,Enum.FontWeight.Regular),
 TextXAlignment="Left",
 Size=UDim2.new(1,0,0,0),
 AutomaticSize="Y",
@@ -8450,7 +8450,7 @@ Icon=ak.Icon,
 TextXAlignment=ak.TextXAlignment or"Left",
 TextSize=ak.TextSize or 19,
 Box=ak.Box or false,
-FontWeight=ak.FontWeight or Enum.FontWeight.SemiBold,
+FontWeight=ak.FontWeight or Enum.FontWeight.Regular,
 TextTransparency=ak.TextTransparency or 0.05,
 Opened=ak.Opened or false,
 UIElements={},
@@ -9282,7 +9282,7 @@ TextColor3="Text"
 TextSize=20,
 TextTransparency=.1,
 Size=UDim2.new(1,-ar,1,0),
-FontFace=Font.new(af.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(af.Font,Enum.FontWeight.Regular),
 TextTruncate="AtEnd",
 RichText=true,
 LayoutOrder=2,
@@ -9644,7 +9644,7 @@ or(-ap.IconSize-10),
 ThemeTag={
 TextColor3="Text",
 },
-FontFace=Font.new(ae.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(ae.Font,Enum.FontWeight.Regular),
 TextSize=14,
 BackgroundTransparency=1,
 TextTransparency=.7,
@@ -10678,7 +10678,7 @@ TextSize=17,
 ThemeTag={
 TextColor3="Text",
 },
-FontFace=Font.new(aj.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(aj.Font,Enum.FontWeight.Regular),
 AutomaticSize="Y",
 BackgroundTransparency=1,
 Size=UDim2.new(1,-27,0,0),
@@ -10913,7 +10913,7 @@ end
 
 local h=ak("TextLabel",{
 Text=as.Title,
-FontFace=Font.new(aj.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(aj.Font,Enum.FontWeight.Regular),
 BackgroundTransparency=1,
 AutomaticSize="XY",
 Name="Title",
@@ -11812,7 +11812,7 @@ Parent=F.UIElements.Main,
 F.UIElements.Title=ak("TextLabel",{
 Text=C.Title,
 TextSize=20,
-FontFace=Font.new(aj.Font,Enum.FontWeight.SemiBold),
+FontFace=Font.new(aj.Font,Enum.FontWeight.Regular),
 TextXAlignment="Left",
 TextWrapped=true,
 RichText=true,
