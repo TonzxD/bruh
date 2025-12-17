@@ -97,7 +97,7 @@ l.SetIconsType"lucide"
 local m
 
 local p={
-Font="rbxassetid://12187373327",
+Font="rbxassetid://12187365364",
 Localization=nil,
 CanDraggable=true,
 Theme=nil,
