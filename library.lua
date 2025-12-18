@@ -4080,8 +4080,8 @@ function ad.AllConfigs(ae)
 if not listfiles then return{}end
 
 local af={}
-if not isfolder(ad.Path)then
-makefolder(ad.Path)
+if not isfolder("AuronHub/" .. ad.Path) then
+makefolder("AuronHub/" .. ad.Path)
 return af
 end
 
@@ -12394,10 +12394,11 @@ if not isfolder"AuronHub"then
 makefolder"AuronHub"
 end
 if ay.Folder then
-makefolder(ay.Folder)
+makefolder("AuronHub/" .. ay.Folder)
 else
-makefolder(ay.Title)
+makefolder("AuronHub/" .. ay.Title)
 end
+
 
 ay.WindUI=aa
 ay.Parent=aa.ScreenGui.Window
