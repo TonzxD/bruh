@@ -4080,6 +4080,9 @@ function ad.AllConfigs(ae)
 if not listfiles then return{}end
 
 local af={}
+if not isfolder("AuronHub/" .. ad.Path) then
+makefolder("AuronHub/" .. ad.Path)
+return af
 end
 
 for ag,ah in next,listfiles(ad.Path)do
@@ -12131,7 +12134,8 @@ end
 end
 end
 
-
+return as
+end end end
 local aa={
 Window=nil,
 Theme=nil,
