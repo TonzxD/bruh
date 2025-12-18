@@ -12131,8 +12131,7 @@ end
 end
 end
 
-return as
-end end end
+
 local aa={
 Window=nil,
 Theme=nil,
