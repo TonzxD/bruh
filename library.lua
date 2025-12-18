@@ -4080,8 +4080,8 @@ function ad.AllConfigs(ae)
 if not listfiles then return{}end
 
 local af={}
-if not isfolder("AuronHub/" .. ad.Path) then
-makefolder("AuronHub/" .. ad.Path)
+if not isfolder(ad.Path)then
+makefolder(ad.Path)
 return af
 end
 
@@ -10399,11 +10399,11 @@ end
 if not isfolder("AuronHub/"..as.Folder.."/assets")then
 makefolder("AuronHub/"..as.Folder.."/assets")
 end
-if not isfolder("AuronHub/" .. as.Folder) then
-makefolder("AuronHub/" .. as.Folder)
+if not isfolder(as.Folder)then
+makefolder(as.Folder)
 end
-if not isfolder("AuronHub/assets/")then
-makefolder("AuronHub/assets/")
+if not isfolder(as.Folder.."/assets")then
+makefolder(as.Folder.."/assets")
 end
 end
 
@@ -10783,7 +10783,7 @@ if typeof(as.Background)=="string"and aF then
 aD=true
 
 if string.find(aF,"http")then
-local d = "AuronHub/assets/" .. aj.SanitizeFilename(aF) .. ".webm"
+local d=as.Folder.."/assets/."..aj.SanitizeFilename(aF)..".webm"
 if not isfile(d)then
 local f,g=pcall(function()
 local f=aj.Request{Url=aF,Method="GET",Headers={["User-Agent"]="Roblox/Exploit"}}
@@ -10820,7 +10820,7 @@ CornerRadius=UDim.new(0,as.UICorner)
 aE:Play()
 
 elseif b then
-local d = "AuronHub/assets/" .. aj.SanitizeFilename(b) .. GetImageExtension(b)
+local d=as.Folder.."/assets/."..aj.SanitizeFilename(b)..GetImageExtension(b)
 if not isfile(d)then
 local f,g=pcall(function()
 local f=aj.Request{Url=b,Method="GET",Headers={["User-Agent"]="Roblox/Exploit"}}
@@ -12394,11 +12394,10 @@ if not isfolder"AuronHub"then
 makefolder"AuronHub"
 end
 if ay.Folder then
-makefolder("AuronHub/" .. ay.Folder)
+makefolder(ay.Folder)
 else
-makefolder("AuronHub/" .. ay.Title)
+makefolder(ay.Title)
 end
-
 
 ay.WindUI=aa
 ay.Parent=aa.ScreenGui.Window
