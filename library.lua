@@ -10783,7 +10783,7 @@ if typeof(as.Background)=="string"and aF then
 aD=true
 
 if string.find(aF,"http")then
-local d="AuronHub/assets/"...aj.SanitizeFilename(aF)..".webm"
+local d = "AuronHub/assets/" .. aj.SanitizeFilename(aF) .. ".webm"
 if not isfile(d)then
 local f,g=pcall(function()
 local f=aj.Request{Url=aF,Method="GET",Headers={["User-Agent"]="Roblox/Exploit"}}
@@ -10820,7 +10820,7 @@ CornerRadius=UDim.new(0,as.UICorner)
 aE:Play()
 
 elseif b then
-local d="AuronHub/assets/"..aj.SanitizeFilename(b)..GetImageExtension(b)
+local d = "AuronHub/assets/" .. aj.SanitizeFilename(b) .. GetImageExtension(b)
 if not isfile(d)then
 local f,g=pcall(function()
 local f=aj.Request{Url=b,Method="GET",Headers={["User-Agent"]="Roblox/Exploit"}}
