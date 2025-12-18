@@ -10402,8 +10402,8 @@ end
 if not isfolder(as.Folder)then
 makefolder(as.Folder)
 end
-if not isfolder("AuronHub"/"assets")then
-makefolder("AuronHub"/"assets")
+if not isfolder("AuronHub/assets/")then
+makefolder("AuronHub/assets/")
 end
 end
 
