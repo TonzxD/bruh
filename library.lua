@@ -3843,12 +3843,12 @@ end
 
 ac=af
 ad.Folder=ac.Folder
-ad.Path="z888/"..tostring(ad.Folder).."/config/"
+ad.Path="AuronHub/"..tostring(ad.Folder).."/config/"
 
-if not isfolder("z888/"..ad.Folder)then
-makefolder("z888/"..ad.Folder)
-if not isfolder("z888/"..ad.Folder.."/config/")then
-makefolder("z888/"..ad.Folder.."/config/")
+if not isfolder("AuronHub/"..ad.Folder)then
+makefolder("AuronHub/"..ad.Folder)
+if not isfolder("AuronHub/"..ad.Folder.."/config/")then
+makefolder("AuronHub/"..ad.Folder.."/config/")
 end
 end
 
