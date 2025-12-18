@@ -12390,8 +12390,8 @@ aa:SetLanguage(ao.Language)
 function aa.CreateWindow(ax,ay)
 local az=a.load'Y'
 
-if not isfolder"WindUI"then
-makefolder"WindUI"
+if not isfolder"AuronHub"then
+makefolder"AuronHub"
 end
 if ay.Folder then
 makefolder(ay.Folder)
